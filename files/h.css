@@ -83,7 +83,6 @@ h1 {
     font-family: 'Geeza Pro';
     text-shadow: 1px 4px 1px #6a6c6c;
     color: #fff;
-    font-size: 1.25em;
     font-weight: 700;
     margin: 0 0 2em;
 }
@@ -99,11 +98,12 @@ h1 {
     border-color: transparent
   }
 }
-@media (min-width: 450px) {
-    h1 {
-        font-size: 1.75em;
-    }
+@media (min-width: 450px)
+h1 {
+    font-size: 4.75em;
+    margin: 16px;
 }
+
 
 @media (min-width: 760px) {
     h1 {
