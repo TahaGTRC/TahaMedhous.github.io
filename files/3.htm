@@ -25,6 +25,18 @@ table.poem {font-size: 39px;}
     border: 0px solid #fff;
     transition: all 1s;
 }
+@media screen and (orientation:portrait) {
+        table.poem td {
+                display: flex;
+                flex-direction: column;
+                text-align-last: justify;
+
+        }
+        img {
+                width: 60%;
+                height: auto;
+        }
+}
 
 .btn:after {
     top: -1px;
