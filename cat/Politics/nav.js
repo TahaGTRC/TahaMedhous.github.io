@@ -1,5 +1,5 @@
 window.onload = function() {
-    var a=document.getElementById('next'),
+    let a=document.getElementById('next'),
         l=document.location.href,
         s=Math.max(l.lastIndexOf('\\'),l.lastIndexOf('/')),
         d=l.indexOf('.'),
